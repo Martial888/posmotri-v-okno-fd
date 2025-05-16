@@ -140,6 +140,11 @@ ol {
   color: #ffffff / 0.7;
 }
 
+.search-form__textfield:active {
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+
 .search-form__textfield:focus {
   outline: none;
 }
@@ -155,8 +160,6 @@ ol {
 
 .search-form__label:active {
   outline: none;
-  border-left: solid 1px white;
-  border-right: solid 1px white;
 }
 
 .search-form__checkbox-list {
@@ -276,7 +279,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 
 .content__video-card:hover {
   text-decoration: underline;
-  text-underline-offset: 1.5px;
 }
 
 .content__video-card:focus {
@@ -285,6 +287,10 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 
 .content__video-card:focus-visible {
   outline: solid 1px #ffffff;
+}
+
+.content__video-card:active {
+  background-color: #545050;
 }
 
 .content__video-card-description-container {
